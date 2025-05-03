@@ -1,0 +1,86 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .login-main {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #dfe9f5;
+  }
+  
+  .container {
+    width: 360px;
+    text-align: center;
+  }
+
+  .title {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 0;
+    border: 1px solid #1a3d7c;
+    border-radius: 5px;
+    background-color: #dfe9f5;
+    color: #1a3d7c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .form-row {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .form-row.remember {
+    display: flex;
+    align-items: center;
+  }
+  .form-row.remember label {
+    font-size: 14px;
+    color: #1a3d7c;
+    cursor: pointer;
+  }
+  .form-row.remember input {
+    margin-right: 8px;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1a3d7c;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .btn.submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #1a3d7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .forgot {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .forgot a {
+    color: #1a3d7c;
+    text-decoration: none;
+  }
+  
+  .user-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,80 @@
+body {
+    background-color: #dfe9f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- HEADER START ------------------- */
+.main-header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #003366;
+    margin-right: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #003366;
+    font-size: 14px;
+}
+/* ------------------- HEADER END ------------------- */
+
+
+/* ------------------- FOOTER START ------------------- */
+
+footer {
+    background-color: #4d6ba0;
+    color: white;
+    padding: 20px 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-column {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-column strong {
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* ------------------- FOOTER END ------------------- */

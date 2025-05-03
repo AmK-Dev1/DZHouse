@@ -1,0 +1,164 @@
+
+.main-content {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .left-panel {
+    width: 280px;
+  }
+  .right-panel {
+    flex: 1;
+  }
+  
+  .panel {
+    background: #eef3fa;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c3d0eb;
+    color: #1a3d7c;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .btn {
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+  }
+  
+  .btn.add {
+    background: #56a85b;
+    color: #fff;
+  }
+  .btn.delete,
+  .btn.reject {
+    background: none;
+    color: #d03333;
+  }
+  .btn.edit {
+    background: none;
+    color: #1a3d7c;
+  }
+  .btn.approve {
+    background: none;
+    color: #2a8f2a;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #1a3d7c;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .button-group .btn {
+    flex: 1;
+    background: #1a3d7c;
+    color: #fff;
+  }
+  
+  .messages {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 120px;
+    padding: 8px;
+    overflow-y: auto;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .contact-form {
+    display: flex;
+    gap: 8px;
+  }
+  .message-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #1a3d7c;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .btn.send {
+    background: #1a3d7c;
+    color: #fff;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .data-table th,
+  .data-table td {
+    border: 1px solid #1a3d7c;
+    padding: 8px;
+    font-size: 14px;
+    background: #fff;
+  }
+  .data-table th {
+    background: #d0d9ec;
+    text-align: left;
+  }
+  
+  .input-text,
+.message-input {
+  border-radius: 5px;
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d0d9ec;
+  color: #1a3d7c;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;        
+  border-spacing: 10px 10px;       
+  margin-bottom: 20px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #1a3d7c;
+  border-radius: 5px;
+  background: #fff;
+  padding: 8px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.data-table th {
+  background: #d0d9ec;
+  font-weight: bold;
+}

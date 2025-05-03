@@ -1,0 +1,109 @@
+/* 1) Centrer le formulaire sous le header */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;    /* espace haut/bas */
+  }
+  
+  /* 2) Conteneur à largeur fixe et centré */
+  .container {
+    width: 500px;         /* un peu plus large pour caler les 2 champs + gap */
+    text-align: center;
+  }
+  
+  /* 3) Titre sur deux lignes, encadré, centré */
+  .title {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 0;
+    border: 1px solid #1a3d7c;
+    border-radius: 5px;
+    background-color: #dfe9f5;   /* même couleur que le body */
+    color: #1a3d7c;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+  
+  /* 4) Champs classiques */
+  .input-text,
+  .select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1a3d7c;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* 5) Rangées 2-colonnes : postal/type et photos/booking */
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  
+  .row .small {
+    flex: 1;
+  }
+  
+  .row .photos,
+  .row .select:not(.small) {
+    flex: 1;
+  }
+  
+  /* 6) Forcer hauteur identique pour bouton + select */
+  .row .btn.photos,
+  .row .select {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* 7) Style du bouton Photos */
+  .btn.photos {
+    background-color: #1a3d7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* 8) Groupe de cases à cocher en grille 2×2 */
+  .checkbox-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+    
+  }
+  
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #1a3d7c;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    background-color: #dfe9f5; 
+  }
+  
+  .checkbox-group input {
+    margin-right: 8px;
+  }
+  
+  /* 9) Bouton Submit largeur plein conteneur */
+  .btn.submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #1a3d7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  

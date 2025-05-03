@@ -1,0 +1,80 @@
+body {
+    background-color: #dfe9f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------- HEADER START ------------------- */
+.main-header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #003366;
+    margin-right: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #003366;
+    font-size: 14px;
+}
+/* ------------------- HEADER END ------------------- */
+
+
+/* ------------------- FOOTER START (updated) ------------------- */
+footer {
+    display: flex;
+    justify-content: space-around;    /* centre les colonnes */
+    align-items: flex-start;
+    background-color: #4d6ba0;
+    color: white;
+    padding: 20px 10px;
+    font-size: 13px;
+    /* on enlève text-align:center ici (les colonnes gèrent leur propre alignement) */
+}
+
+.footer-column {
+    flex: 0 1 200px;            /* largeur fixe max, mais flexible */
+    margin: 0 20px;             /* espace entre les colonnes */
+    text-align: left;           /* texte aligné à gauche dans chaque colonne */
+    box-sizing: border-box;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-column strong {
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+/* ------------------- FOOTER END ------------------- */
+

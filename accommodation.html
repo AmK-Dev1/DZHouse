@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DZHouse - Account</title>
+
+    <!-- Css -->
+     <link rel="stylesheet" href="./css/styles.css">
+     <link rel="stylesheet" href="./css/accommodation.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="header-container">
+        <div class="logo">DZHouse</div>
+        <div class="nav-section">
+            <nav>
+                <a href="#">Publich an ad</a>
+                <a href="#">Help</a>
+                <a href="#">Travels</a>
+                <a href="#">Login ▶</a>
+            </nav>
+            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="User icon" class="user-icon">
+        </div>
+    </div>
+  </header>
+
+    <main>
+        <div class="container">
+          <h1 class="title">New / Update Announcement</h1>
+          <form id="accom-form"> 
+
+            <input
+              type="text"
+              name="title"         
+              class="input-text"
+              placeholder="Name"
+            >
+
+            <input
+              type="text"
+              name="address"
+              class="input-text"
+              placeholder="Address"
+            >
+          
+            <div class="row">
+              <input
+                type="text"
+                name="postal_code"
+                class="input-text small"
+                placeholder="Postal code"
+              >
+          
+              <select name="type" class="select small">
+                <option value="">Type</option>
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+                <option value="studio">Studio</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          
+            <div class="row">
+              <button type="button" class="btn photos">Photos</button>
+          
+              <select name="reservation_mode" class="select">
+                <option value="">Booking method</option>
+                <option value="instant">Instant</option>
+                <option value="confirmation">Confirmation</option>
+              </select>
+            </div>
+          
+            <div class="checkbox-group">
+              <label><input type="checkbox" name="parking"> Parking</label>
+              <label><input type="checkbox" name="wifi"> Wifi</label>
+              <label><input type="checkbox" name="air_conditioning"> Air conditioning</label>
+              <label><input type="checkbox" name="balcony"> Balcony</label>
+            </div>
+          
+            <input
+              type="number"
+              name="price"
+              class="input-text"
+              placeholder="Price"
+              step="0.01"
+            >
+          
+            <textarea
+              name="description"
+              class="input-text"
+              placeholder="Description"
+            ></textarea>
+          
+            <button type="submit" class="btn submit">Submit</button>
+          </form>
+          
+        </div>
+      </main>
+
+
+    <footer>
+        <div class="footer-column">
+            <strong>About HomeAway</strong><br>
+            <a href="#">Post a Listing</a><br>
+            <a href="#">Trust & Safety</a><br>
+            <a href="#">Partner Resources</a><br>
+            <a href="#">Travel Guides</a>
+        </div>
+    
+        <div class="footer-column">
+            <strong>Company</strong><br>
+            <a href="#">Who are we?</a><br>
+            <a href="#">Affiliation / Contact us</a><br>
+            <a href="#">Terms of use</a><br>
+            <a href="#">Privacy policy</a>
+        </div>
+    
+        <div class="footer-column">
+            <strong>Meet our family</strong><br>
+            <a href="#">Vrbo</a><br>
+            <a href="#">Abritel.fr</a><br>
+            <a href="#">FeWo-direkt.de</a><br>
+            <a href="#">Bookabach.co.nz</a>
+        </div>
+    </footer>
+
+
+  <script src="./js/accommodation.js"></script>
+
+</body>
+</html>
